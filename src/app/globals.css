@@ -26,3 +26,6 @@
 body {
   font-family: "avantt", sans-serif;
 }
+::-webkit-scrollbar {
+  width: 0;
+}

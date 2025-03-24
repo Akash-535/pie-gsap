@@ -1,6 +1,6 @@
 import React from "react";
-import Heading from "./common/Heading";
-import Description from "./common/Description";
+import Heading from "../common/Heading";
+import Description from "../common/Description";
 import Image from "next/image";
 
 const CardOne = ({ className }) => {

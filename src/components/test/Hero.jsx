@@ -43,7 +43,7 @@ const Hero = () => {
           trigger: ".pin-section",
           start: "top , top",
           end: "900% center",
-          scrub: 3,
+          scrub: 4,
           pin: true,
           animation: tl,
         });
