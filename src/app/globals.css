@@ -1,26 +1,28 @@
 @import "tailwindcss";
+/* 
+@theme {
+  --color-dark-black: "#191423";
+  --color-custom-green: "#6FFFA8";
+  --color-custom-blue: "#6621E9";
+  --color-custom-pink: "#FFABC7";
+  --color-custom-skyblue: "#026070";
+  --text-26: "26px";
+  --leading-130: "130%";
+  --leading-150: "150%";
+} */
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "avantt";
+  src: url("/assets/fonts/AvanttTRIAL-Regular-BF6721a86b1a848.otf");
+  font-weight: 400;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "avantt";
+  src: url("/assets/fonts/AvanttTRIAL-SemiBold-BF6721a86b1576e.otf");
+  font-weight: 600;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "avantt", sans-serif;
 }
