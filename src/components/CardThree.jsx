@@ -6,8 +6,8 @@ import Image from "next/image";
 const CardThree = ({ className }) => {
   return (
     <div className={className}>
-      <div className="min-h-[735px] max-xl:min-h-[620px] max-lg:min-h-[450px] w-full flex justify-center max-w-[1140px] mx-auto gap-4 max-lg:flex-col">
-        <div className="bg-[#FFABC7] py-4 px-[16px] min-h-[735px] max-xl:min-h-[620px] max-lg:min-h-[450px] max-w-[520px] max-lg:max-w-none w-full rounded-2xl flex flex-col gap-[26px]">
+      <div className="min-h-[675px] max-xl:min-h-[633px] max-lg:min-h-[390px] w-full flex justify-center max-w-[1140px] mx-auto gap-4 max-lg:flex-col">
+        <div className="bg-[#FFABC7] py-4 px-[16px] min-h-[675px] max-xl:min-h-[633px] max-lg:min-h-[390px] max-w-[520px] max-lg:max-w-none w-full rounded-2xl flex flex-col gap-[26px]">
           <Heading>Real Time Tax</Heading>
           <div className="flex flex-col gap-2 max-w-[467px] max-lg:max-w-[600px]">
             <Description>
@@ -25,10 +25,6 @@ const CardThree = ({ className }) => {
           <Heading>Live tracking of the tax return</Heading>
           <div className="flex flex-col gap-2 max-w-[467px] max-lg:max-w-[600px]">
             <Description>
-              All of the income and outgoings will be tracked so that the self
-              assessment income reporting can be completed in the app.
-            </Description>
-            <Description>
               Because Pie is a registered tax agent with HMRC, it will be able
               to send off your self-assessments directly to HMRC without needing
               to leave or download the data outside of the app.
@@ -41,7 +37,7 @@ const CardThree = ({ className }) => {
             </Description>
           </div>
         </div>
-        <div className="bg-[url(/assets/images/section-three-bg.webp)] bg-cover bg-no-repeat bg-center min-h-[735px] max-xl:min-h-[620px] max-lg:min-h-[450px] max-w-[520px] max-lg:max-w-none w-full rounded-2xl flex justify-center items-center">
+        <div className="bg-[url(/assets/images/section-three-bg.webp)] bg-cover bg-no-repeat bg-center min-h-[675px] max-xl:min-h-[633px] max-lg:min-h-[390px] max-w-[520px] max-lg:max-w-none w-full rounded-2xl flex justify-center items-center">
           <Image
             width={680}
             height={591}
